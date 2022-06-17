@@ -1,7 +1,10 @@
 #  Énoncé de l’exercice iOS Swift avec Xcode:
 
 ### **Tâche 1 - Bug visuel** : Vous devez corriger les contraintes à partir de UIKit, en programatically. 
-    Dans le dossier Screens, vous trouverez le fichier LoginView: il y a un formulaire de login qui a un  label email, un TextField email, un label password et un TextField password, ainsi qu’un bouton  « Se connecter ». Ce qu'on vous demande c'est de corriger les contraintes afin que le formulaire soit correctement posititionné. Vous pouvez constater que le formulaire ne prend pas entièrement la largeur et les différents composants ne sont pas centrés à la vue.
+    Dans le dossier Screens, vous trouverez le fichier LoginView: 
+    il y a un formulaire de login qui a un  label email, un TextField email, un label password et un TextField password, ainsi qu’un bouton  
+    « Se connecter ». Ce qu'on vous demande c'est de corriger les contraintes afin que le formulaire soit correctement posititionné. 
+    Vous pouvez constater que le formulaire ne prend pas entièrement la largeur et les différents composants ne sont pas centrés à la vue.
 
 ### **Tâche 2 - Vérifier les champs du formulaire** :
 Une fonction est appelée lorsqu'on clique sur le bouton « Se connecter ». 
