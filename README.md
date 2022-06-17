@@ -10,13 +10,13 @@ Exercice d'entretien à résoudre en Swift UIKit - Ellis-Car
     Vous pouvez constater que le formulaire ne prend pas entièrement la largeur et les différents composants ne sont pas centrés à la vue.
 
 ### **Tâche 2 - Vérifier les champs du formulaire** :
-Une fonction est appelée lorsqu'on clique sur le bouton « Se connecter ». 
-Le champ email prend bien un format d’email et que le champ password a au minimum 6 caractères avec au minimum 1 chiffre et le texte du champ password devra être secure. 
-Sinon affiche une popup d'alerte (message de votre choix).
+    Une fonction est appelée lorsqu'on clique sur le bouton « Se connecter ». 
+    Le champ email prend bien un format d’email et que le champ password a au minimum 6 caractères avec au minimum 1 chiffre.
+    Sinon affiche une popup d'alerte (message de votre choix).
 
 ### **Tâche 3 - API service** : 
-    Si vous avez encore du temps, améliorez le design de la page Login ou bien vous pouvez appeler le
-    service API avec URLSession ou une bibliothèque de votre choix avec Cocoapods.
+    Si vous avez encore du temps, vous pouvez appeler le
+    service API avec URLSession ou une bibliothèque de votre choix à télécharger sur Cocoapods.
 
     URL: https://api.ellis-car.com/users/login
     body: 
