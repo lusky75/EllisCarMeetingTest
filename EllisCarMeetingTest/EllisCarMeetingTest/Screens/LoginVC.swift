@@ -33,6 +33,8 @@ class LoginVC: UIViewController {
         print("Message: I try to log in !")
         
         //À toi de coder ici pour vérifier les champs email, password
+        let homeVC = HomeVC()
+        navigationController?.pushViewController(homeVC, animated: true)
     }
     
 }
