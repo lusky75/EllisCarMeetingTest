@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		A03E88B8285BFEB10003B105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88B7285BFEB10003B105 /* AppDelegate.swift */; };
 		A03E88BA285BFEB10003B105 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88B9285BFEB10003B105 /* SceneDelegate.swift */; };
-		A03E88BC285BFEB10003B105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88BB285BFEB10003B105 /* ViewController.swift */; };
+		A03E88BC285BFEB10003B105 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88BB285BFEB10003B105 /* LoginVC.swift */; };
 		A03E88BF285BFEB10003B105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03E88BD285BFEB10003B105 /* Main.storyboard */; };
 		A03E88C1285BFEB20003B105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03E88C0285BFEB20003B105 /* Assets.xcassets */; };
 		A03E88C4285BFEB20003B105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03E88C2285BFEB20003B105 /* LaunchScreen.storyboard */; };
 		A03E88CF285BFEB30003B105 /* EllisCarMeetingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88CE285BFEB30003B105 /* EllisCarMeetingTestTests.swift */; };
 		A03E88D9285BFEB30003B105 /* EllisCarMeetingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88D8285BFEB30003B105 /* EllisCarMeetingTestUITests.swift */; };
 		A03E88DB285BFEB30003B105 /* EllisCarMeetingTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88DA285BFEB30003B105 /* EllisCarMeetingTestUITestsLaunchTests.swift */; };
+		A03E88EA285BFFE90003B105 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88E9285BFFE90003B105 /* LoginView.swift */; };
+		A03E88ED285C01C70003B105 /* ECStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88EC285C01C70003B105 /* ECStyle.swift */; };
+		A03E88EF285C02D80003B105 /* ECColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88EE285C02D80003B105 /* ECColor.swift */; };
+		A03E88F1285C03D20003B105 /* ECString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E88F0285C03D20003B105 /* ECString+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		A03E88B4285BFEB10003B105 /* EllisCarMeetingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EllisCarMeetingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E88B7285BFEB10003B105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A03E88B9285BFEB10003B105 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A03E88BB285BFEB10003B105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A03E88BB285BFEB10003B105 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A03E88BE285BFEB10003B105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A03E88C0285BFEB20003B105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A03E88C3285BFEB20003B105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,11 @@
 		A03E88D4285BFEB30003B105 /* EllisCarMeetingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllisCarMeetingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E88D8285BFEB30003B105 /* EllisCarMeetingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllisCarMeetingTestUITests.swift; sourceTree = "<group>"; };
 		A03E88DA285BFEB30003B105 /* EllisCarMeetingTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllisCarMeetingTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A03E88E7285BFF3B0003B105 /* MeetingLog.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MeetingLog.md; sourceTree = "<group>"; };
+		A03E88E9285BFFE90003B105 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A03E88EC285C01C70003B105 /* ECStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECStyle.swift; sourceTree = "<group>"; };
+		A03E88EE285C02D80003B105 /* ECColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECColor.swift; sourceTree = "<group>"; };
+		A03E88F0285C03D20003B105 /* ECString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ECString+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +108,11 @@
 		A03E88B6285BFEB10003B105 /* EllisCarMeetingTest */ = {
 			isa = PBXGroup;
 			children = (
+				A03E88E7285BFF3B0003B105 /* MeetingLog.md */,
+				A03E88EB285C01B70003B105 /* Common */,
+				A03E88E8285BFFD80003B105 /* Screens */,
 				A03E88B7285BFEB10003B105 /* AppDelegate.swift */,
 				A03E88B9285BFEB10003B105 /* SceneDelegate.swift */,
-				A03E88BB285BFEB10003B105 /* ViewController.swift */,
 				A03E88BD285BFEB10003B105 /* Main.storyboard */,
 				A03E88C0285BFEB20003B105 /* Assets.xcassets */,
 				A03E88C2285BFEB20003B105 /* LaunchScreen.storyboard */,
@@ -125,6 +136,25 @@
 				A03E88DA285BFEB30003B105 /* EllisCarMeetingTestUITestsLaunchTests.swift */,
 			);
 			path = EllisCarMeetingTestUITests;
+			sourceTree = "<group>";
+		};
+		A03E88E8285BFFD80003B105 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A03E88BB285BFEB10003B105 /* LoginVC.swift */,
+				A03E88E9285BFFE90003B105 /* LoginView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A03E88EB285C01B70003B105 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A03E88EC285C01C70003B105 /* ECStyle.swift */,
+				A03E88EE285C02D80003B105 /* ECColor.swift */,
+				A03E88F0285C03D20003B105 /* ECString+Extension.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A03E88BC285BFEB10003B105 /* ViewController.swift in Sources */,
+				A03E88ED285C01C70003B105 /* ECStyle.swift in Sources */,
+				A03E88F1285C03D20003B105 /* ECString+Extension.swift in Sources */,
+				A03E88BC285BFEB10003B105 /* LoginVC.swift in Sources */,
 				A03E88B8285BFEB10003B105 /* AppDelegate.swift in Sources */,
+				A03E88EF285C02D80003B105 /* ECColor.swift in Sources */,
+				A03E88EA285BFFE90003B105 /* LoginView.swift in Sources */,
 				A03E88BA285BFEB10003B105 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Lucas.EllisCarMeetingTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -478,6 +513,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Lucas.EllisCarMeetingTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
