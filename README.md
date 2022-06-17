@@ -15,8 +15,8 @@ Exercice d'entretien à résoudre en Swift UIKit - Ellis-Car
     Sinon affiche une popup d'alerte (message de votre choix).
 
 ### **Tâche 3 - API service** : 
-    Si vous avez encore du temps, améliorez le design de la page Login ou bien vous pouvez appeler le
-    service API avec URLSession ou une bibliothèque de votre choix avec Cocoapods.
+    Si vous avez encore du temps, vous pouvez appeler le
+    service API avec URLSession ou une bibliothèque de votre choix à télécharger sur Cocoapods.
 
     URL: https://api.ellis-car.com/users/login
     body: 
