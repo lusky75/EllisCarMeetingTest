@@ -11,7 +11,7 @@ Exercice d'entretien à résoudre en Swift UIKit - Ellis-Car
 
 ### **Tâche 2 - Vérifier les champs du formulaire** :
     Une fonction est appelée lorsqu'on clique sur le bouton « Se connecter » et elle redirige vers la page Home. 
-    Vérifiez que le champ email prend bien un format d’email et que le champ password a au minimum 6 caractères.
+    Vérifiez que le champ email prend bien un format d’email et que le champ password a au minimum 6 caractères dont 1 chiffe.
     exemple: test@hotmail.fr (ok), test@hotmail ou testhotmail.fr (pas ok).
 
     Sinon affiche une popup d'alerte (message de votre choix).
