@@ -9,6 +9,9 @@ Exercice d'entretien à résoudre en Swift UIKit - Ellis-Car
     ainsi qu’un bouton  « Se connecter ». Ce qu'on vous demande c'est de corriger les contraintes afin que le formulaire soit correctement posititionné. 
     Vous pouvez constater que le formulaire ne prend pas entièrement la largeur et les différents composants ne sont pas centrés à la vue.
 
+Résultat attendu![résultat_attendu](https://user-images.githubusercontent.com/47739262/174461139-f2871a95-0692-4744-95af-3fc1f190dfb6.png)
+
+
 ### **Tâche 2 - Vérifier les champs du formulaire** :
     Une fonction est appelée lorsqu'on clique sur le bouton « Se connecter » et elle redirige vers la page Home. 
     Vérifiez que le champ email prend bien un format d’email et que le champ password a au minimum 6 caractères dont 1 chiffe.
