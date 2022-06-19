@@ -10,7 +10,7 @@ Résultat attendu: https://user-images.githubusercontent.com/47739262/174461139-
 
 ### **Tâche 2 - Vérifier les champs du formulaire** :
     Une fonction est appelée lorsqu'on clique sur le bouton « Se connecter » et elle redirige vers la page Home. 
-    Vérifiez que le champ email prend bien un format d’email et que le champ password a au minimum 6 caractères.
+    Vérifiez que le champ email prend bien un format d’email et que le champ password a au minimum 6 caractères et 1 chiffre.
     exemple: test@hotmail.fr (ok), test@hotmail ou testhotmail.fr (pas ok).
 
     Sinon affiche une popup d'alerte (message de votre choix).
